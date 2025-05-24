@@ -1,86 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <title>DOIT SOLUTIONS</title>
-    <link rel="stylesheet" href="contact.css">
-</head>
-<body>
-    
-      <!-- -------------------------------------------------Navbar starts here---------------------------------------------- -->
-      <nav>
-        <a href="index.html">
-            <img class="logo" src="images/Logo.png" alt="">
-        </a>
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <!-- -------------------------------------------------Navbar starts here---------------------------------------------- -->
+    <nav>
+      <a href="index.html">
+        <img class="logo" src="images/Logo.png" alt="" />
+      </a>
 
-            <li>
-                <a href="services.html">Services</a>
-            </li>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
-            <li>
-                <a href="DOIT PORTFOLIO CANADA.pdf" download="Portfolio">Portfolio</a>
-            </li>
-            
-            <li class="contact-btn">
-                <a href="contactus.html">Enquiry</a>
-            </li>
-        </ul>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+
+        <li>
+          <a href="services.html">Services</a>
+        </li>
+
+        <li>
+          <a href="DOIT PORTFOLIO CANADA.pdf" download="Portfolio">Portfolio</a>
+        </li>
+
+        <li class="contact-btn">
+          <a href="contactus.html">Enquiry</a>
+        </li>
+      </ul>
     </nav>
-     
+
     <!-- -------------------------------------------------------Navbar Ends here----------------------------------------------- -->
 
-
     <!-- -------------------------------------------------------Contact US Form------------------------------------------------ -->
-    
-    <section class="inquire">
-
-        <div class="content-container">
-            <div class="card">
-                <div>
-                    <h1>
-                        Let's Connect
-                    </h1>
-                    <p>
-                        Unleash your ideas! We're not just a contact point, we're <br> a gateway to collaboration. 
-                        Reach out with your musings,<br> inquiries, or even a cosmic 'hello.' Let's merge minds and <br> paint the canvas of imagination together!
-                    </p>
-                </div>
+    <main>
+      <section class="inquire">
+        <div class="card">
+          <div class="top-row">
+            <!-- Let's Connect Block -->
+            <div class="qr">
+              <div class="heading">
+                <h1>Let's Connect</h1>
+              </div>
+              <div class="column qr-box">
+                <img src="images1/qr.png" alt="QR Code" />
+              </div>
               
-                <div class="link-containers">
-                    <h1>Message us</h1><br>
-                    <a  class="insta" href="https://www.instagram.com/doitsolutions_study_abroad?igshid=YTQwZjQ0NmI0OA=="> 
-                        <img src="images/instagram.png" alt=""> 
-                    </a>
-
-                    <a class="fb" href="https://www.facebook.com/people/Doit-Solutions-Study-Abroad/61552238210731/?mibextid=ZbWKwL">
-                        <img src="images/facebook.png" alt="">
-                    </a>
-
-                    <a class="linkedin" href="http://www.linkedin.com/in/do-itsolutions5">
-                        <img src="images/linkedin.png" alt="">
-                    </a>
-
-                    <h4>Email: recruit@do-itsolutions.com</h4>
-
-                    <P><u>Contact no:</u> +1-778-805-6428</P>
-
-                    <p><u>Address:</u> Unit 205, 8028, 128 Street, Surrey, British Columbia, V3W4E9</p>
-                </div>
-
             </div>
 
-            
+            <!-- Address Block (Canada + India) -->
+            <div class="address-block">
+              <div class="heading">
+                <h1>Our Presence</h1>
+              </div>
+              <div class="addresses">
+                <!-- Canada Address -->
+                <div class="column">
+                  <h4>Head Office: Canada</h4>
+                  <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    recruit@do-itsolutions.com
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    +1-778-239-9509
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-location-dot"></i>6268 131A ST
+                    <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;SURREY BC V3X 1N9
+                    <br />&nbsp;&nbsp;&nbsp;&nbsp;CANADA
+                  </p>
+                </div>
+
+                <!-- India Address -->
+                <div class="column">
+                  <h4>Branch Office: India</h4>
+                  <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    recruit@doit.co.in
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    +91-97898 63302
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-location-dot"></i>#9, YES YES ARCADE,<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First Floor, Shop No: 22<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;School First Cross St<br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Secretariat Colony<br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venkatapuram,  Ambattur OT<br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chennai, Tamil Nadu<br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;600053
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Social Media -->
+          <div class="social-media">
+            <a
+              class="insta"
+              target="_blank"
+              href="https://www.instagram.com/do_it_solutions/"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              class="fb"
+              target="_blank"
+              href="https://www.facebook.com/5DOIT/"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a
+              class="linkedin"
+              target="_blank"
+              href="https://www.linkedin.com/in/doit-solutions-51573b246"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
         </div>
-        
-        <img src="images/pexels-tiger-lily-7109290.jpg" class="pic-container" alt="">
-        
-
-    </section>
-
-</body>
+      </section>
+    </main>
+  </body>
 </html>
+<script>
+  const hamburger = document.querySelector(".hamburger");
+  const navMenu = document.querySelector("nav ul");
+
+  hamburger.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+    hamburger.classList.toggle("open");
+  });
+</script>
